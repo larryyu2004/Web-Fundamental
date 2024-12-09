@@ -1,0 +1,21 @@
+.avatars {
+    display: flex;
+}
+
+.avatars-item{
+    margin-left: -6px;
+}
+
+.avatars-image{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 3px 4px #cb7979;
+    border-radius: 999px;
+}
+
+.avatars-item img {
+    border-radius: 999px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
