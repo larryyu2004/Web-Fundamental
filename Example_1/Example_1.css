@@ -1,0 +1,47 @@
+.accordion {
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.item {
+    border-bottom: 1px solid #ddd;
+}
+
+.header {
+    
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.icon{
+
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid #333;
+    transition: transform 0.3s ease;
+}
+
+.icon.open {
+    transform: rotate(-90deg);
+}
+
+.title {
+    flex: 1;
+    font-size: 16px;
+}
+
+.content {
+    display: none;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.content.open {
+    display: block;
+}
