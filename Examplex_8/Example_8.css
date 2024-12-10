@@ -1,0 +1,26 @@
+.close-button{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+.close-button::before,
+.close-button::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.close-button::before{
+    top: 50%;
+    transform: rotate(45deg);
+}
+
+.close-button::after{
+    top: 50%;
+    transform: rotate(-45deg);
+}
