@@ -1,0 +1,37 @@
+1. Example1:
+    1. In css: .icon.open {...}; 
+    In js: icon.classList.toggle("open");
+        or 
+    otherContent.classList.remove("open");
+
+    2. In js: const content = headers.nextElementSibling;
+    otherContent.previousSibling.querySelector(".icon").classList.remove("open");
+
+    3. In HTML: <div class="header"> <div class="header"> <div class="header">...
+    In js: headers.forEach(headers => {})
+
+2. Example2:
+    1. In css: ::before
+
+3. Example3:
+    1. In css: object-fit: cover;
+
+4. Example4:
+    1. In css: box-shadow: 0 0 3px 4px #cb7979;
+
+5. Example5:
+
+6. Example6: 
+    1. In css: flex-direction: column;
+
+7. Example7: 
+    1. In css: overflow: hidden; / overflow: scroll;
+
+8. Example8: 
+    1. In css: position: absolute;
+
+9. Example9: 
+    1. In HTML: <div class="color-swatch-item" style="--color: red"></div>
+    background-color: var(--color);
+    
+    2. In css: flex-wrap: wrap;
