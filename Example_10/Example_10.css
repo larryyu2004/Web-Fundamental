@@ -1,0 +1,41 @@
+:root{
+    --concave-corners-background: pink;
+    --concave-corner-size: 40px;
+}
+
+.concave-corners{
+    background-color: var(--concave-corners-background);
+    position: relative;
+    min-height: 100px;
+}
+
+.concave-corners__corner{
+    position: absolute;
+    height: var(--concave-corner-size);
+    width: var(--concave-corner-size);
+    background-color: white;
+}
+
+.concave-corners__corner--tl{
+    left: 0;
+    top: 0;
+    border-radius: 0 0 var(--concave-corner-size) 0;
+}
+
+.concave-corners__corner--tr{
+    right: 0;
+    top: 0;
+    border-radius: 0 0 0 var(--concave-corner-size);
+}
+
+.concave-corners__corner--bl{
+    left: 0;
+    bottom: 0;
+    border-radius: 0 var(--concave-corner-size) 0 0;
+}
+
+.concave-corners__corner--br{
+    bottom: 0;
+    right: 0;
+    border-radius: var(--concave-corner-size) 0 0 0 ;
+}

@@ -33,5 +33,14 @@
 9. Example9: 
     1. In HTML: <div class="color-swatch-item" style="--color: red"></div>
     background-color: var(--color);
-    
+
     2. In css: flex-wrap: wrap;
+
+10. Example10:
+    1. In css: min-height: 100px;
+    2. In css: :root{ .. }
+    3. In css:
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
