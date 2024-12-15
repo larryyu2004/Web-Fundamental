@@ -1,0 +1,18 @@
+.container{
+    position: relative;
+    border: 1px solid #ddd;
+    min-height: 200px;
+    overflow: hidden;
+}
+
+.container-ribbon{
+    height: 24px;
+    width: 206px;
+    position: absolute;
+    top: 32px;
+    left: -64px;
+    transform: rotate(-45deg);
+    background-color: red;
+    text-align: center;
+    color: #ddd;
+}
