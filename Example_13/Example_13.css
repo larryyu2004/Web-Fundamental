@@ -1,0 +1,6 @@
+.container{
+    min-height: 100px;
+    background-image: linear-gradient(to bottom, rgba(251, 165, 165, 1) 0%, rgba(251, 265,265, 0.8) 100%);
+    border-bottom-left-radius: 50% 40%;
+    border-bottom-right-radius: 50% 40%;
+}
