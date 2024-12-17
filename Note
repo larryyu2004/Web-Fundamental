@@ -58,3 +58,6 @@
 14. Example14:
     1. In css: z-index: -1;
     2. In css: transform: skewY(-5deg);
+
+15. Example15:
+    1. In css: transform: translate(50%, -50%);

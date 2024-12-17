@@ -1,0 +1,26 @@
+.container{
+    margin-top: 100px;
+    height: 100px;
+    width: 400px;
+    position: relative;
+
+    border: 1px solid #6f6f6f;
+}
+
+.close-button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+
+    background: #d87676;
+    color: aliceblue;
+}
