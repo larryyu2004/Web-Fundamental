@@ -54,3 +54,7 @@
 13. Example13:
     1. In css: background-image: linear-gradient(to bottom, rgba(251, 165, 165, 1) 0%, rgba(251, 265,265, 0.8) 100%);
     2. In css: border-bottom-left-radius: 50% 40%;
+
+14. Example14:
+    1. In css: z-index: -1;
+    2. In css: transform: skewY(-5deg);
