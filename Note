@@ -61,3 +61,9 @@
 
 15. Example15:
     1. In css: transform: translate(50%, -50%);
+
+16. Example16:
+    1. In HTML: <div class="item-lable" style="--color: blue">Hot</div>
+    In css: background-color: var(--color);
+
+    2. In css: border-bottom: 1px dashed #ddd;
